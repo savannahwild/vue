@@ -11,7 +11,7 @@ color: black
 ## Introduction
 
 - JS framework for building user interfaces.
-- Created by Evan You.
+- Created by Evan You in 2014
 - Unlike other big frameworks (React, Angular), Vue isn't maintained by a large corporation such as Meta or Google.
 - Like React, it builds on top of HTML, CSS and JS.
 - Used to develop single-page applications.
@@ -105,13 +105,49 @@ app.mount(#app);
 
 ---
 
-## Vue vs Jquery
+## Comparison with competitors
+
+![bg height:60%](./imgs/competitors.webp)
+\
+\
+\
+\
+\
+\
+\
+\
+Stack Overflow Developer Survey 2020
+
+---
+
+### Vue vs Jquery
+
+![bg height:70%](./imgs/jquerycompare.png)
+\
+\
+\
+\
+\
+\
+\
+\
+\
+(geeksforgeeks.org)
+
+---
+
+## Facilitating tools
+
+- Bit: facilitates component-driven development
+- Vite: smooth/fast build tool
+- Pinia: Management library
+- Vue-router: Vue router library
 
 ---
 
 ## Deployment
 
-Decide which hosting service to deploy your vue app
+Decide which hosting service to deploy your vue app:
 
 - Free services: Render, Github pages
 - Free with usage limits: Netlify, Vercel, Amazon S3, Firebase
@@ -145,6 +181,7 @@ $ serve -s dist
 - Adobe
 - Grammarly
 - Facebook
+- Netflix
 
 ---
 
@@ -154,8 +191,6 @@ $ serve -s dist
 - Vue was easy to integrate with the existing codespaces
 
   https://portfolio.adobe.com/examples/
-
----
 
 ### Grammarly
 
