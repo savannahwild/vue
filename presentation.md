@@ -15,6 +15,7 @@
 ## Why Vue (not exclusive)
 
 - Creates dynamic frontend apps
+- Component-based architecture promotes reusability
 - Easy to integrate with other projects
 - Integrates well with backend systems to make full stack.
 - Virtual DOM, fast
@@ -28,6 +29,7 @@
 - Inspired from Angular as best parts of Angular extracted, leaving behind the limitations.
 - Doesn't contain the complexities of other frameworks. Syntax etc.
 - Can be used on server-side when used with SSR framework (Nuxt). 
+- Extremely lightweight
 
 ---
 
@@ -97,6 +99,7 @@ app.mount(#app);
 
 - Doesn't render in older operating systems
 - Not as trustworthy overall as not backed by large organisation
+- Developed in China, so most documentations in Chinese
 
 ## Companies that use it
 
