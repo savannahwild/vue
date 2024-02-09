@@ -1,4 +1,10 @@
-![VueJS logo](./logo.png)
+---
+marp: true
+theme: gaia
+color: black
+---
+
+![VueJS logo bg width:80%](./logo.png)
 
 ---
 
@@ -25,10 +31,10 @@
 
 ## Why Vue? (exclusive)
 
-- Vue is simple and intuitive to learn. 
+- Vue is simple and intuitive to learn.
 - Inspired from Angular as best parts of Angular extracted, leaving behind the limitations.
 - Doesn't contain the complexities of other frameworks. Syntax etc.
-- Can be used on server-side when used with SSR framework (Nuxt). 
+- Can be used on server-side when used with SSR framework (Nuxt).
 - Extremely lightweight
 
 ---
@@ -36,17 +42,15 @@
 ## Layout
 
 ```html
-
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        ...
-    </head>
-    <body>
-        <div id="app"></div>
-    </body>
+  <head>
+    ...
+  </head>
+  <body>
+    <div id="app"></div>
+  </body>
 </html>
-
 ```
 
 ---
@@ -62,17 +66,15 @@ app.mount(#app);
 ---
 
 ```html
-
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        ...
-    </head>
-    <body>
-        <div id="app">{{message}}</div>
-    </body>
+  <head>
+    ...
+  </head>
+  <body>
+    <div id="app">{{message}}</div>
+  </body>
 </html>
-
 ```
 
 ---
@@ -100,6 +102,8 @@ app.mount(#app);
 - Doesn't render in older operating systems
 - Not as trustworthy overall as not backed by large organisation
 - Developed in China, so most documentations in Chinese
+
+---
 
 ## Companies that use it
 
