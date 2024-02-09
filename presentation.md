@@ -4,14 +4,14 @@ theme: gaia
 color: black
 ---
 
-![VueJS logo bg width:80%](./logo.png)
+![VueJS logo bg width:80%](./imgs/logo.png)
 
 ---
 
 ## Introduction
 
 - JS framework for building user interfaces.
-- Created by Evan You.
+- Created by Evan You in 2014
 - Unlike other big frameworks (React, Angular), Vue isn't maintained by a large corporation such as Meta or Google.
 - Like React, it builds on top of HTML, CSS and JS.
 - Used to develop single-page applications.
@@ -105,7 +105,94 @@ app.mount(#app);
 
 ---
 
+## Comparison with competitors
+
+![bg height:60%](./imgs/competitors.webp)
+\
+\
+\
+\
+\
+\
+\
+\
+Stack Overflow Developer Survey 2020
+
+---
+
+### Vue vs Jquery
+
+![bg height:70%](./imgs/jquerycompare.png)
+\
+\
+\
+\
+\
+\
+\
+\
+\
+(geeksforgeeks.org)
+
+---
+
+## Facilitating tools
+
+- Bit: facilitates component-driven development
+- Vite: smooth/fast build tool
+- Pinia: Management library
+- Vue-router: Vue router library
+
+---
+
+## Deployment
+
+Decide which hosting service to deploy your vue app:
+
+- Free services: Render, Github pages
+- Free with usage limits: Netlify, Vercel, Amazon S3, Firebase
+- Paid services: Heroku
+
+---
+
+### Prerequisites:
+
+- Preview locally prior to deployment, for example:
+
+```shell
+$ npm install -g serve
+$ serve -s dist
+```
+
+- Configure CORS if your static frontend is deployed to a different domain from your backend API
+
+---
+
+### Deployment with Netlify
+
+- Build Command: npm run build or yarn build
+- Publish directory: dist
+  ![bg right height:100%](./imgs/deploy.png)
+
+---
+
 ## Companies that use it
 
 - Adobe
 - Grammarly
+- Facebook
+- Netflix
+
+---
+
+### Adobe
+
+- Portfolio is a custom website builder for users to make a portfolio of their work
+- Vue was easy to integrate with the existing codespaces
+
+  https://portfolio.adobe.com/examples/
+
+### Grammarly
+
+- It built an online editor with vue.js that you can use to check large sections of text
+- Grammarly for developers and Grammarly SDK discontinued :(
