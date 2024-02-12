@@ -196,3 +196,7 @@ $ serve -s dist
 
 - It built an online editor with vue.js that you can use to check large sections of text
 - Grammarly for developers and Grammarly SDK discontinued :(
+
+### DEMO
+
+https://github.com/victorelgersma/vue-demo-for-presentation
